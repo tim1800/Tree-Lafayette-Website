@@ -1,0 +1,173 @@
+/*
+ Tree Lafayette Style Sheet 
+ Filename: styles.css
+*/
+
+/*Main Content*/
+html { 
+  background: url(bark-background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+
+text-align: left;
+font-family: Tahoma, Aerial, Helvetica, sans-serif;
+}
+
+img, video{
+	max-width: 100%;
+	height: auto;
+}
+h1, h2, h3{
+	color: #E0E0E0;
+	text-align: center;
+}
+p{
+	text-align: center;
+	max-width: 100%;
+	margin: 0 auto;
+}
+ul, li
+{
+	text-align: center;
+	list-style-type:none;
+}
+footer
+{
+	text-align: center;
+}
+
+/*Navigation Bar*/
+nav.sitenavigation {
+	text-align: center;
+	background-color: #333;
+	color: green;
+	margin-left: 1in;
+	margin-right: 1in;
+	position:sticky;
+	top:0px;
+	
+
+}
+nav.sitenavigation li {
+	display: inline-block;
+	margin: 0.5em;
+	
+}
+
+
+	
+#header {
+	text-align: center;
+	background-color: #333;
+	padding: .5in;
+	margin-left: 1in;
+	margin-right: 1in;
+	font-size: 50px;
+	
+}
+#footer {
+	text-align: center;
+	background-color: #333;
+	padding: .5in;
+	margin-left: 1in;
+	margin-right: 1in;
+	
+	}
+.accent {
+	color: green;
+	}
+	.sitenavigation{
+		background-color: red;
+		overflow: hidden;
+	}
+div {
+background-color: #333;
+margin-left: 2in;
+margin-right: 2in;
+}	
+/* the navigation bar*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+background-color:green;
+}
+
+
+
+
+/*links*/
+/* unvisited link */
+a:link{
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: #CDCD00;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: green;
+}
+a{
+	color:green;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/* print styles */
+@media print {
+	body, h1, article, #footer, a, h2, p, a:link, a:visited, #header, #tablehead, .captiontext, ul, li,img,u
+	
+	{
+		color:#000;
+		background-color:#fff;
+		border: 0;
+	}
+	body{
+		max-width: 100%;
+		border: 0;
+	}
+	nav{
+		display: none;
+	}
+
+}
